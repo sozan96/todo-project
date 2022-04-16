@@ -1,5 +1,5 @@
 # todo-project
 
-![](./Wirefram1.PNG)
+![wireframe](./asset/Wirefram1.PNG)
 
-![](./Wirefram2.PNG)
+![wireframe](./asset/Wirefram2.PNG)
