@@ -8,15 +8,7 @@ font-size: 20px ;}
     width: 150px; ;
     height: 150px;
     padding-left: 200px;
-    padding-top: 40px;
-  
-}
-
-
-#title {
-    text-align: center;
-padding-bottom: 3.5rem;
-    
+    padding-top: 40px;  
 }
 
 .nav {
@@ -26,34 +18,11 @@ padding-bottom: 3.5rem;
     text-align:center; 
     
   }
- 
-  .li { 
-    display: inline;
-}
+  
 #liId { 
     display: inline; 
 }
-    table{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 40%;
-  }
-table ,th ,td {
-
-    border: .2px solid black;
-    border-collapse: collapse;
-    
-}
-
-.display{
-    font-size: 10px;
-    padding:30px;
-    text-align: center; 
-    background-color: gray;
-    margin: 100px;
-}
-
-
+  
 
 header{
     background-color: gray;
@@ -120,11 +89,3 @@ footer{
     margin-top: 100px;
 }
 
-#td{
- 
-   background-color: green;
-}
-
-.td2{
-    background-color: red;
-}
