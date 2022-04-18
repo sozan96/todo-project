@@ -5,58 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./istockphoto-1209654046-612x612.jpg" type="image/x-icon">
-    <img src="https://media.istockphoto.com/vectors/user-avatar-profile-icon-black-vector-illustration-vector-id1209654046?k=20&m=1209654046&s=612x612&w=0&h=Atw7VdjWG8KgyST8AXXJdmBkzn0lvgqyWod9vTb2XoE=" alt="about" style="width:50px;height:60px;">
 </head>
 <body>
-    <header>
-        <h1>ABOUT</h1>
+    <header class="headerClass">
+      <img src="https://media.istockphoto.com/vectors/user-avatar-profile-icon-black-vector-illustration-vector-id1209654046?k=20&m=1209654046&s=612x612&w=0&h=Atw7VdjWG8KgyST8AXXJdmBkzn0lvgqyWod9vTb2XoE=" alt="about" style="width:50px;height:60px;">
+      <ul >
+        <li id="liId"><a  href="index.html">Home</a></li>
+        <li id="liId"><a href="about.html">About</a></li>
+       
+      </ul>
+        
     </header>
 <main>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="Courses">Courses</a></li>
-      </ul>
-      <br>
+    
+     
+     
+    <div id="headen">
       <img id="img" src="./asset/my photo.jpg" alt="profile photo"/>
-      <p>Sozan Alzubiedy</p>
-<p>phone num: 0780978714</p>
-      <br>
-    </main>
+     <div id="prag"> <h2>Sozan Alzubiedy</h2>
+     <span><p>25 years old <br>
+      A biomedical engineer<br> 
+      graduated from Jordan University of Science and Tecnology in 2019</p>
+    </span> 
+  </div>
+    </div> 
     
 
-      
 
-
-<footer>
     <div class="container">
-        <div >
-          <h2>Contact Us</h2>
+      <div >
+        <h2>Contact Us</h2>
+      </div>
+      <div class="row">
+        <div class="column">
         </div>
-        <div class="row">
-          <div class="column">
+        <div class="column">
+          <form action="/action_page.php">
+           <div> <label for="Name">Name</label>
+            <input type="e-mail" id="Name" name="firstname" placeholder="Your name..">
           </div>
-          <div class="column">
-            <form action="/action_page.php">
-              <label for="Name">Name</label>
-              <input type="e-mail" id="Name" name="firstname" placeholder="Your name..">
-              <label for="lname">E-mail</label>
-              <input type="text" id="lname" name="lastname" placeholder="E-mail..">
-                <label for="message">message</label>
-                <input type="message" id="message" name="message" placeholder="message">
-              </select>
-              
-              <input type="submit" value="Submit">
-            </form>
+            <br>
+            <div><label for="lname">E-mail</label>
+            <input type="text" id="lname" name="lastname" placeholder="E-mail..">
           </div>
+           <br>
+           <div>
+              <label for="message">message</label>
+              <input type="message" id="message" name="message" placeholder="message">
+            </div> 
+              <br>
+            </select>
+            
+          <div id="bttn"> <input  type="submit" value="Submit">
+          </div> 
+          </form>
         </div>
       </div>
-      
+    </div>
     
+  
+    </main>
+   
+      
+<footer>
+    
+  <p >I will display &#169;
 </footer>
-<p>I will display &#169;
+
     
 </body>
 </html>

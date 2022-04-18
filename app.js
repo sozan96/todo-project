@@ -1,4 +1,4 @@
-var userName = prompt ("What's your name ?");
+/*var userName = prompt ("What's your name ?");
 console.log(userName);
 
 var yourGender = prompt ("enter a gender : male or female " );
