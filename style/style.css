@@ -1,0 +1,130 @@
+
+body {background-color:darkslategray;
+     color: black;
+font-style: inherit;
+font-size: 20px ;}
+
+#img {
+    width: 150px; ;
+    height: 150px;
+    padding-left: 200px;
+    padding-top: 40px;
+  
+}
+
+
+#title {
+    text-align: center;
+padding-bottom: 3.5rem;
+    
+}
+
+.nav {
+    
+    list-style-type: none;
+    padding: 30px;
+    text-align:center; 
+    
+  }
+ 
+  .li { 
+    display: inline;
+}
+#liId { 
+    display: inline; 
+}
+    table{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40%;
+  }
+table ,th ,td {
+
+    border: .2px solid black;
+    border-collapse: collapse;
+    
+}
+
+.display{
+    font-size: 10px;
+    padding:30px;
+    text-align: center; 
+    background-color: gray;
+    margin: 100px;
+}
+
+
+
+header{
+    background-color: gray;
+    display:flex;
+    text-indent: 20rem;
+    word-spacing: 400px;
+}
+
+.headerClass{
+    background-color: gray;
+    display:flex;
+    
+}
+
+span p {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid powderblue;
+
+
+}
+
+
+#prag{
+    float: right;
+    padding-right: 250px;
+    height: 150px;
+}
+
+form{
+
+    text-align: center;
+    display: block;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    margin: 50px;
+}
+#message{
+    height: 100px;
+
+}
+
+#Name {
+    margin-left: 20px;
+}
+
+#lname{
+    margin-left: 12px;
+}
+
+#bttn{
+ padding-left: 180px;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    height: 40px;
+    margin-top: 100px;
+}
+
+#td{
+ 
+   background-color: green;
+}
+
+.td2{
+    background-color: red;
+}
