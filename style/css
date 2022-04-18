@@ -1,4 +1,93 @@
 
+body {background-color:darkslategray;
+    color: black;
+font-style: inherit;
+font-size: 20px ;}
+
+#img {
+   width: 150px; ;
+   height: 150px;
+   padding-left: 200px;
+   padding-top: 40px;  
+}
+
+
+ 
+#liId { 
+   display: inline; 
+}
+ 
+
+header{
+   background-color: gray;
+   display:flex;
+   text-indent: 20rem;
+   word-spacing: 400px;
+}
+
+.headerClass{
+   background-color: gray;
+   display:flex;
+   
+}
+
+span p {
+   padding: 10px;
+   text-align: center;
+   border: 2px solid powderblue;
+
+
+}
+
+
+#prag{
+   float: right;
+   padding-right: 250px;
+   height: 150px;
+}
+
+form{
+
+   text-align: center;
+   display: block;
+}
+
+h2{
+   text-align: center;
+}
+
+label{
+   margin: 50px;
+}
+#message{
+   height: 100px;
+
+}
+
+#Name {
+   margin-left: 20px;
+}
+
+#lname{
+   margin-left: 12px;
+}
+
+#bttn{
+padding-left: 180px;
+}
+
+footer{
+   background-color: gray;
+   text-align: center;
+   height: 40px;
+   margin-top: 100px;
+}
+
+
+
+
+
+
 
 body {background-color:darkslategray;
     color: black;
@@ -7,7 +96,7 @@ font-size: 20px ;}
 
 
 #title {
-    text-align:center;
+    text-align: center;
 padding-bottom: 3.5rem;
     
 }
