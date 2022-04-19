@@ -27,4 +27,74 @@ else if (yourGender.toLowerCase()  == "female")
 {
     alert  (` hello Ms ${userName}` );
 }
+*/
+
+
+//TASK 6
+
+
+let arr=[];
+function functionOne()
+
+{
+    let questionOne = prompt ("Are you playing sports evreyday ? " );
+
+        if (questionOne == "")
+      { 
+          questionOne= "invalid ";
+      }
+          arr.push( questionOne);
+
+     }
+
+//calling function one
+functionOne()
+
+
+
+function functionTow()
+
+{
+    let questionTwo = prompt ("Are you need to help in js ? " );
+
+        if (questionTwo == "")
+      { 
+        questionTwo= "invalid ";
+      }
+          arr.push( questionTwo);
+
+     }
+
+//caliing function two
+functionTow()
+
+
+function functionThree()
+
+{
+    let questionThree = prompt ("Are you happy in Js ? " );
+
+        if (questionThree == "")
+      { 
+        questionThree= "invalid ";
+      }
+          arr.push(questionThree);
+
+     }
+
+//calling function three
+functionThree()
+
+console.log(arr);
+
+for(let i=0 ; i<arr.length ; i++)
+{
+    console.log(arr[i]);
 }
+
+
+
+
+
+
+
